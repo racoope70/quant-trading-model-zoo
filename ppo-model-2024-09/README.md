@@ -60,3 +60,19 @@ The model runs per-ticker walk-forward training/evaluation, saves artifacts per 
 All artifacts are grouped by **ticker** and **fold** under `artifacts/`.  
 Use these patterns so everything lines up with the report and orders CSV:
 
+---
+
+## Installation & Usage
+
+### Prerequisites
+- Python 3.9+
+- pip or conda
+- Git
+
+### Setup
+```bash
+git clone https://github.com/racoope70/quant-trading-model-zoo.git
+cd quant-trading-model-zoo/ppo-model-2024-09
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
