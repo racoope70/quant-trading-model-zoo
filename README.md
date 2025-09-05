@@ -19,7 +19,7 @@ Production-ready market ML signals: curated model zoo (A2C, Deep SARSA, DQN, DDP
 ## Repo layout
 
 ```text
-
+quant-trading-model-zoo/
 ├── README.md
 ├── src/
 │   ├── features/                # feature engineering, regimes, denoise
@@ -40,7 +40,7 @@ Production-ready market ML signals: curated model zoo (A2C, Deep SARSA, DQN, DDP
 ├── reports/                     # backtest summaries/plots
 └── .env.example                 # example secrets (no real keys)
 
-
+```
 ---
 
 ## Models supported
